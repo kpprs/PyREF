@@ -1,6 +1,6 @@
 {
     "url": "https://example.com",
-    "input_folder": "Data/Input",
+    "input_folder": "PyREF/Data/Input",
     "output_folder": "Data/output",
     "Max consecutive exceptions": 3
   }

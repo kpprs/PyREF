@@ -1,5 +1,7 @@
-# import the logging module 
+# import the logging module
+# import os
 import logging
+import os
 
 # set up the logging module 
 def logger():
@@ -12,11 +14,14 @@ def logger():
         log: logger
     """
 
+    if not os.path.exists('PyREF/Data/Output'):
+        os.mkdir('PyREF/Data/Output')
+
     log = logging.getLogger('PyREF')
     log.setLevel(logging.DEBUG)
 
     logHandle = logging.FileHandler(
-                f'Data/Output/PyREF_log.log',
+                'PyREF/Data/Output/PyREF_log.log',
                 encoding="utf-8",
                 mode="a"
                 )

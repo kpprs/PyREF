@@ -1,0 +1,60 @@
+2024-12-02 17:55:02 - INFO - User: Westfield, procesID: 15320
+2024-12-02 17:55:02 - CRITICAL - Ending process due an error during initialization: [Errno 2] No such file or directory: 'Data/Config.json'
+2024-12-02 17:55:02 - INFO - Ending process
+2024-12-02 17:55:50 - INFO - User: Westfield, procesID: 12012
+2024-12-02 17:55:50 - INFO - Config ready
+2024-12-02 17:55:50 - INFO - Opening applications
+2024-12-02 17:55:50 - INFO - Getting the next transaction item
+2024-12-02 17:55:50 - INFO - Processing transaction number: 1
+2024-12-02 17:55:50 - INFO - Transaction status: Success
+2024-12-02 17:55:50 - INFO - Getting the next transaction item
+2024-12-02 17:55:50 - INFO - Processing transaction number: 2
+2024-12-02 17:55:50 - INFO - Transaction status: Success
+2024-12-02 17:55:50 - INFO - Getting the next transaction item
+2024-12-02 17:55:50 - INFO - Processing transaction number: 3
+2024-12-02 17:55:50 - INFO - Transaction status: Success
+2024-12-02 17:55:50 - INFO - Getting the next transaction item
+2024-12-02 17:55:50 - INFO - Processing transaction number: 4
+2024-12-02 17:55:50 - INFO - Transaction status: Success
+2024-12-02 17:55:50 - INFO - Getting the next transaction item
+2024-12-02 17:55:50 - INFO - Processing transaction number: 5
+2024-12-02 17:55:50 - INFO - Business Rule Exception encountered during processing of transaction item: 5, Someone else takes care of this number
+2024-12-02 17:55:50 - INFO - Transaction status: Business Rule Exception, Someone else takes care of this number
+2024-12-02 17:55:50 - INFO - Getting the next transaction item
+2024-12-02 17:55:50 - INFO - Processing transaction number: 6
+2024-12-02 17:55:50 - INFO - Transaction status: Success
+2024-12-02 17:55:50 - INFO - Getting the next transaction item
+2024-12-02 17:55:50 - INFO - Processing transaction number: 7
+2024-12-02 17:55:50 - INFO - Transaction status: Success
+2024-12-02 17:55:50 - INFO - Getting the next transaction item
+2024-12-02 17:55:50 - INFO - Processing transaction number: 8
+2024-12-02 17:55:50 - INFO - Transaction status: Success
+2024-12-02 17:55:50 - INFO - Getting the next transaction item
+2024-12-02 17:55:50 - INFO - Processing transaction number: 9
+2024-12-02 17:55:50 - INFO - Transaction status: Success
+2024-12-02 17:55:50 - INFO - Getting the next transaction item
+2024-12-02 17:55:50 - INFO - Processing transaction number: 10
+2024-12-02 17:55:50 - INFO - Transaction status: Success
+2024-12-02 17:55:50 - INFO - Getting the next transaction item
+2024-12-02 17:55:50 - INFO - Processing transaction number: 11
+2024-12-02 17:55:50 - INFO - Transaction status: Success
+2024-12-02 17:55:50 - INFO - Getting the next transaction item
+2024-12-02 17:55:50 - INFO - Processing transaction number: 12
+2024-12-02 17:55:50 - INFO - Transaction status: Success
+2024-12-02 17:55:50 - INFO - Getting the next transaction item
+2024-12-02 17:55:50 - INFO - Processing transaction number: 13
+2024-12-02 17:55:50 - ERROR - Exception encountered during processing of transaction item 13: Wrong number; consecutive exceptions: 1
+2024-12-02 17:55:50 - WARNING - Transaction failed: Wrong number
+2024-12-02 17:55:50 - INFO - Retrying transaction...
+2024-12-02 17:55:50 - INFO - Getting the next transaction item
+2024-12-02 17:55:50 - INFO - Processing transaction number: 13
+2024-12-02 17:55:50 - ERROR - Exception encountered during processing of transaction item 13: Wrong number; consecutive exceptions: 2
+2024-12-02 17:55:50 - WARNING - Transaction failed: Wrong number
+2024-12-02 17:55:50 - INFO - Retrying transaction...
+2024-12-02 17:55:50 - INFO - Getting the next transaction item
+2024-12-02 17:55:50 - INFO - Processing transaction number: 13
+2024-12-02 17:55:50 - ERROR - Exception encountered during processing of transaction item 13: Wrong number; consecutive exceptions: 3
+2024-12-02 17:55:50 - WARNING - Transaction failed: Wrong number
+2024-12-02 17:55:50 - INFO - Retrying transaction...
+2024-12-02 17:55:50 - CRITICAL - Ending process due maximum consecutive exceptions
+2024-12-02 17:55:50 - INFO - Ending process
