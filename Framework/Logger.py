@@ -14,14 +14,11 @@ def logger():
         log: logger
     """
 
-    if not os.path.exists('PyREF/Data/Output'):
-        os.mkdir('PyREF/Data/Output')
-
     log = logging.getLogger('PyREF')
     log.setLevel(logging.DEBUG)
 
     logHandle = logging.FileHandler(
-                'PyREF/Data/Output/PyREF_log.log',
+                'Data/Output/PyREF_log.log',
                 encoding="utf-8",
                 mode="a"
                 )

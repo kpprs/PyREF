@@ -23,11 +23,8 @@ def Initialization(config: dict = None, logger=None):
 
     print('Getting things ready...')
     # read the json config file and get config dictionary
-    with open('PyREF/Data/Config.json', 'r') as configFile: 
+    with open('Data/Config.json', 'r') as configFile: 
         config = json.load(configFile)
-    
-    if not os.path.exists(config['input_folder']):
-        os.mkdir(config['input_folder'])
 
     logger.info('Config ready')
     
